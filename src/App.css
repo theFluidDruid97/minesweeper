@@ -1,0 +1,28 @@
+.App {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.cell {
+  width: 60px;
+  min-width: 60px;
+  height: 60px;
+  min-height: 60px;
+  background-image: url('./grass.jpg');
+}
+
+.cell[clicked = "true"] {
+  width: 60px;
+  min-width: 60px;
+  height: 60px;
+  min-height: 60px;
+  background-image: url('./dirt.jpg');
+}
+
+.row {
+  margin: -2px;
+}
